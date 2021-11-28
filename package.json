@@ -1,0 +1,20 @@
+{
+  "name": "apod_nasa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SATEESH BUGGA",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}

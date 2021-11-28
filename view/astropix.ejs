@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Astronomy Picture of the Day
+    </title>
+    
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    
+   
+</head>
+
+<body BGCOLOR="#F4F4FF" text="#000000" link="#0000FF" vlink="#7F0F9F" alink="#FF0000">
+
+    <center>
+        <h1> Astronomy Picture of the Day </h1>
+        <p>
+
+            <a href="archivepix">Discover the cosmos!</a>
+            Each day a different image or photograph of our fascinating universe is
+            featured, along with a brief explanation written by a professional astronomer.
+        <p>
+
+            <%=new Date(info.date)%>
+            <br>
+        
+            <a href="images/<%=info.url%>">
+                <IMG SRC="images/<%=info.url%>" alt="See Explanation.  Clicking on the picture will download
+the highest resolution version available." style="max-width:100%"></a>
+
+    </center>
+
+    <center>
+        <b> Messier 101 </b> <br>
+
+        <b>Image Credit: </b>
+
+        <a href="https://www.nasa.gov/">NASA</a>,
+        <a href="https://www.spacetelescope.org/">ESA</a>,
+        <a href="https://www.cfht.hawaii.edu/">CFHT</a>,
+        <a href="https://www.noao.edu/">NOAO</a>;
+        <br>
+        Acknowledgement -
+        K.Kuntz (<a href="https://universe.gsfc.nasa.gov/">GSFC</a>),
+        F.Bresolin (<a href="https://www.ifa.hawaii.edu/">U.Hawaii</a>),
+        J.Trauger (<a href="https://www.jpl.nasa.gov/">JPL</a>),
+        J.Mould (<a href="https://www.noao.edu/">NOAO</a>),
+        Y.-H.Chu (<a href="https://astro.illinois.edu/">U. Illinois</a>)
+
+    </center>
+    <p>
+
+        <b> Explanation: </b>
+        <%=info.explanation%>
+    <p>
+        <center>
+            <p>
+                <hr>
+                <b> Authors & editors: </b>
+                <a href="http://www.phy.mtu.edu/faculty/Nemiroff.html">Sateesh Bugga</a>
+                <hr>
+            <p>
+        </center>
+</body>
+
+</html>
